@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(20, 0, 30);
+}
+
 .navbar-nav .nav-link:hover {
     font-weight: bold;
     color: darkcyan;
@@ -5,4 +9,30 @@
 
 .navbar-dark {
     background-color: rgb(18, 1, 46);
+}
+
+.circular-image-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-image {
+    width: 120%;
+    height: auto;
+    display: block;
+}
+
+.title {
+    color: darkcyan;
+}
+
+.name {
+    color: wheat;
 }

@@ -3,6 +3,45 @@
 {% block title %} About {% endblock title %} 
  
 {% block content1 %}
-<h1>about</h1>
+<div class="row my-5">
+    <div class="col-4 d-flex justify-content-center align-items-center">
+        <img class="about-image" src="{% static 'images/photo_2024-11-16_14-59-10.jpg' %}" alt="profile photo">
+    </div>
+
+    <div class="col-7 text-left text-light">
+        <p class="fs-5">
+            Results-driven Python and Django developer with 3.5 years of experience in designing and 
+            implementing web applications and strong engineering professional with a Master of 
+            Science - MS focused in Information Technology from University of Dhaka. 
+        </p>
+
+        <p class="fs-5">
+            Passionate about leveraging technology to create efficient and user-friendly solutions. 
+            Proficient in developing robust back-end systems, optimizing database performance, 
+            and ensuring seamless integration with front-end components. Adept at collaborating 
+            with cross-functional teams and translating business requirements into technical 
+            specifications. 
+        </p>
+    </div>
+</div>
+
+<div class="row my-2">
+    <h2 class="text-center" style="color: darkcyan">My Tech Stacks!</h2>
+
+    <div class="d-flex justify-content-around align-items-center">
+        <img src="{% static 'images/icons8-python-50.png' %}" 
+        alt="python icon" width="60" height="60" class="img-fluid">
+        <img src="{% static 'images/icons8-django-50.png' %}" 
+        alt="django icon" width="60" height="60" class="img-fluid">
+        <img src="{% static 'images/icons8-postgres-50.png' %}" 
+        alt="postgres icon" width="60" height="60" class="img-fluid">
+        <img src="{% static 'images/icons8-javascript-50.png' %}"
+         alt="javascript icon" width="60" height="60" class="img-fluid">
+        <img src="{% static 'images/icons8-elasticsearch-50.png' %}" 
+        alt="elasticsearch icon" width="60" height="60" class="img-fluid">
+        <img src="{% static 'images/icons8-celery-50.png' %}" 
+        alt="celery icon" width="60" height="60" class="img-fluid">
+    </div>
+</div>
 {% endblock content1 %}
 

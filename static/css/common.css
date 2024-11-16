@@ -36,3 +36,9 @@ body {
 .name {
     color: wheat;
 }
+
+.about-image {
+    width: 200px;
+    height: auto;
+    display: block;
+}

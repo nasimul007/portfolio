@@ -27,3 +27,16 @@ def projects(request):
         },
     ]
     return render (request, "portfolio/projects.html", {"projects": projects_show})
+
+def experience(request):
+    experiences = [
+        {
+            "company_name": "Innoweb Limited",
+            "position": "Software Engineer",
+        },
+        {
+            "company_name": "Innoweb Limited",
+            "position": "Software Engineer Inetrn",
+        }
+    ]
+    return render (request, "portfolio/experience.html", {"experiences": experiences})

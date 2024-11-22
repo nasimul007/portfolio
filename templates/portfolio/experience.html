@@ -1,0 +1,16 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block title %} About {% endblock title %} 
+ 
+{% block content1 %}
+<div class="row my-2">
+    {% for experience in experiences %}
+    <div class="jumbotron jumbotron-fluid mt-2">
+        <h1 class="display4"> {{ experience.company_name }} </h1>
+        <p class="lead"> {{ experience.position }} </p>
+        
+    </div>
+    {% endfor %}
+</div>
+{% endblock content1 %}
+

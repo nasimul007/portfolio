@@ -42,3 +42,19 @@ body {
     height: auto;
     display: block;
 }
+
+.jumbotron {
+    background-color: #002244;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.display4 {
+    color: #eef3f8;
+    font-size: 24px;
+}
+
+.lead {
+    color: #28a745;
+    font-size: 18px;
+}

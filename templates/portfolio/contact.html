@@ -1,0 +1,48 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block title %} About {% endblock title %} 
+ 
+{% block content1 %}
+<div class="row my-2">
+    <div class="col-5 text-center my-5 text-light">
+        <h1>Stay Connected</h1>
+        <h3>nasimul.hasan.aiub@gmail.com</h3>
+
+        <div class="d-flex justify-content-center align-items-center">
+            <a href="https://www.linkedin.com/in/nasimulhasan007/" target="_blank" class="ms-3">
+                <img src="{% static 'images/linkedin.png' %}" alt="linkedin icon" width="40" height="40">
+            </a>
+            
+
+            <a href="https://github.com/nasimul007" target="_blank" class="ms-3">
+                <img src="{% static 'images/github.png' %}" alt="github icon" width="40" height="40">
+            </a>
+        </div>
+    </div>
+
+    <div class="col-6 offset-1 mt-3 text-light">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="inputName">
+              </div>
+            <div class="col-md-6">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="col-12">
+              <label for="inputSubject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="inputSubject">
+            </div>
+            <div class="col-md-12">
+              <label for="inputDetails" class="form-label">Details</label>
+              <textarea class="form-control" id="Details"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+    </div>
+</div>
+{% endblock content1 %}
+

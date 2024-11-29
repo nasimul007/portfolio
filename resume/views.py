@@ -16,15 +16,15 @@ def projects(request):
             "path": "images/portfolio.png",
         },
         {
-            "title": "Dual Examinner Marking System",
+            "title": "Dual Examiner Marking System",
             "path": "images/image-20160824-30252-j527k8.avif",
         },
         {
-            "title": "Traveller Blog",
+            "title": "Traveler Blog",
             "path": "images/DI_5-Steps-To-Designing-An-Eye-Catching-Travel-Blog_Banner_828x300.jpg",
         },
         {
-            "title": "School Attendence System",
+            "title": "School Attendance System",
             "path": "images/stdasms.jpg",
         },
     ]
@@ -38,7 +38,7 @@ def experience(request):
         },
         {
             "company_name": "Innoweb Limited",
-            "position": "Software Engineer Inetrn",
+            "position": "Software Engineer Intern",
         }
     ]
     return render (request, "portfolio/experience.html", {"experiences": experiences})
